@@ -10,7 +10,14 @@ sys.stdin = io.StringIO(_INPUT)
 
 
 def main():
-    return
+    a, b, c, k = map(int, input().split())
+
+    if k % 2:
+        print(c-b)
+    else:
+        print(b-c)
+
+    pass
 
 
 if __name__ == "__main__":
